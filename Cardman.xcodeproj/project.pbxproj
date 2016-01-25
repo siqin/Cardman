@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96572E2D1C564CC30096F1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E2C1C564CC30096F1B1 /* main.m */; };
+		96572E301C564CC30096F1B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E2F1C564CC30096F1B1 /* AppDelegate.m */; };
+		96572E331C564CC30096F1B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E321C564CC30096F1B1 /* ViewController.m */; };
+		96572E361C564CC30096F1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96572E341C564CC30096F1B1 /* Main.storyboard */; };
+		96572E381C564CC30096F1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96572E371C564CC30096F1B1 /* Assets.xcassets */; };
+		96572E3B1C564CC30096F1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96572E391C564CC30096F1B1 /* LaunchScreen.storyboard */; };
+		96572E451C565F2A0096F1B1 /* CLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E441C565F2A0096F1B1 /* CLPerson.m */; };
+		96572E481C565F5C0096F1B1 /* CLCardman.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E471C565F5C0096F1B1 /* CLCardman.m */; };
+		96572E4C1C565FF00096F1B1 /* CLAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E4B1C565FF00096F1B1 /* CLAddress.m */; };
+		96572E4F1C567FF60096F1B1 /* CMContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E4E1C567FF60096F1B1 /* CMContactListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96572E281C564CC30096F1B1 /* Cardman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96572E2C1C564CC30096F1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96572E2E1C564CC30096F1B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96572E2F1C564CC30096F1B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96572E311C564CC30096F1B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96572E321C564CC30096F1B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96572E351C564CC30096F1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96572E371C564CC30096F1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96572E3A1C564CC30096F1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96572E3C1C564CC30096F1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96572E431C565F2A0096F1B1 /* CLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLPerson.h; path = CardmanLib/CLPerson.h; sourceTree = "<group>"; };
+		96572E441C565F2A0096F1B1 /* CLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLPerson.m; path = CardmanLib/CLPerson.m; sourceTree = "<group>"; };
+		96572E461C565F5C0096F1B1 /* CLCardman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLCardman.h; path = CardmanLib/CLCardman.h; sourceTree = "<group>"; };
+		96572E471C565F5C0096F1B1 /* CLCardman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLCardman.m; path = CardmanLib/CLCardman.m; sourceTree = "<group>"; };
+		96572E491C565FA90096F1B1 /* CardmanLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardmanLib.h; path = CardmanLib/CardmanLib.h; sourceTree = "<group>"; };
+		96572E4A1C565FF00096F1B1 /* CLAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAddress.h; path = CardmanLib/CLAddress.h; sourceTree = "<group>"; };
+		96572E4B1C565FF00096F1B1 /* CLAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLAddress.m; path = CardmanLib/CLAddress.m; sourceTree = "<group>"; };
+		96572E4D1C567FF60096F1B1 /* CMContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMContactListViewController.h; sourceTree = "<group>"; };
+		96572E4E1C567FF60096F1B1 /* CMContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMContactListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96572E251C564CC30096F1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96572E1F1C564CC30096F1B1 = {
+			isa = PBXGroup;
+			children = (
+				96572E2A1C564CC30096F1B1 /* Cardman */,
+				96572E291C564CC30096F1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96572E291C564CC30096F1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96572E281C564CC30096F1B1 /* Cardman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96572E2A1C564CC30096F1B1 /* Cardman */ = {
+			isa = PBXGroup;
+			children = (
+				96572E421C565E870096F1B1 /* CardmanLib */,
+				96572E2E1C564CC30096F1B1 /* AppDelegate.h */,
+				96572E2F1C564CC30096F1B1 /* AppDelegate.m */,
+				96572E311C564CC30096F1B1 /* ViewController.h */,
+				96572E321C564CC30096F1B1 /* ViewController.m */,
+				96572E341C564CC30096F1B1 /* Main.storyboard */,
+				96572E371C564CC30096F1B1 /* Assets.xcassets */,
+				96572E391C564CC30096F1B1 /* LaunchScreen.storyboard */,
+				96572E3C1C564CC30096F1B1 /* Info.plist */,
+				96572E2B1C564CC30096F1B1 /* Supporting Files */,
+				96572E4D1C567FF60096F1B1 /* CMContactListViewController.h */,
+				96572E4E1C567FF60096F1B1 /* CMContactListViewController.m */,
+			);
+			path = Cardman;
+			sourceTree = "<group>";
+		};
+		96572E2B1C564CC30096F1B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96572E2C1C564CC30096F1B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96572E421C565E870096F1B1 /* CardmanLib */ = {
+			isa = PBXGroup;
+			children = (
+				96572E491C565FA90096F1B1 /* CardmanLib.h */,
+				96572E461C565F5C0096F1B1 /* CLCardman.h */,
+				96572E471C565F5C0096F1B1 /* CLCardman.m */,
+				96572E431C565F2A0096F1B1 /* CLPerson.h */,
+				96572E441C565F2A0096F1B1 /* CLPerson.m */,
+				96572E4A1C565FF00096F1B1 /* CLAddress.h */,
+				96572E4B1C565FF00096F1B1 /* CLAddress.m */,
+			);
+			name = CardmanLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96572E271C564CC30096F1B1 /* Cardman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96572E3F1C564CC30096F1B1 /* Build configuration list for PBXNativeTarget "Cardman" */;
+			buildPhases = (
+				96572E241C564CC30096F1B1 /* Sources */,
+				96572E251C564CC30096F1B1 /* Frameworks */,
+				96572E261C564CC30096F1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardman;
+			productName = Cardman;
+			productReference = 96572E281C564CC30096F1B1 /* Cardman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96572E201C564CC30096F1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jason Lee";
+				TargetAttributes = {
+					96572E271C564CC30096F1B1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 96572E231C564CC30096F1B1 /* Build configuration list for PBXProject "Cardman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96572E1F1C564CC30096F1B1;
+			productRefGroup = 96572E291C564CC30096F1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96572E271C564CC30096F1B1 /* Cardman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96572E261C564CC30096F1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96572E3B1C564CC30096F1B1 /* LaunchScreen.storyboard in Resources */,
+				96572E381C564CC30096F1B1 /* Assets.xcassets in Resources */,
+				96572E361C564CC30096F1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96572E241C564CC30096F1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96572E331C564CC30096F1B1 /* ViewController.m in Sources */,
+				96572E4C1C565FF00096F1B1 /* CLAddress.m in Sources */,
+				96572E301C564CC30096F1B1 /* AppDelegate.m in Sources */,
+				96572E2D1C564CC30096F1B1 /* main.m in Sources */,
+				96572E4F1C567FF60096F1B1 /* CMContactListViewController.m in Sources */,
+				96572E451C565F2A0096F1B1 /* CLPerson.m in Sources */,
+				96572E481C565F5C0096F1B1 /* CLCardman.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96572E341C564CC30096F1B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96572E351C564CC30096F1B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96572E391C564CC30096F1B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96572E3A1C564CC30096F1B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96572E3D1C564CC30096F1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96572E3E1C564CC30096F1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96572E401C564CC30096F1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cardman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.Cardman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96572E411C564CC30096F1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cardman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.Cardman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96572E231C564CC30096F1B1 /* Build configuration list for PBXProject "Cardman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96572E3D1C564CC30096F1B1 /* Debug */,
+				96572E3E1C564CC30096F1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96572E3F1C564CC30096F1B1 /* Build configuration list for PBXNativeTarget "Cardman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96572E401C564CC30096F1B1 /* Debug */,
+				96572E411C564CC30096F1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96572E201C564CC30096F1B1 /* Project object */;
+}
