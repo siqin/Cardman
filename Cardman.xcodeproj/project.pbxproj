@@ -17,6 +17,10 @@
 		96572E481C565F5C0096F1B1 /* CLCardman.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E471C565F5C0096F1B1 /* CLCardman.m */; };
 		96572E4C1C565FF00096F1B1 /* CLAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E4B1C565FF00096F1B1 /* CLAddress.m */; };
 		96572E4F1C567FF60096F1B1 /* CMContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E4E1C567FF60096F1B1 /* CMContactListViewController.m */; };
+		96572E791C579F450096F1B1 /* CLPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E781C579F450096F1B1 /* CLPhone.m */; };
+		96572E7C1C579FD70096F1B1 /* CLName.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E7B1C579FD70096F1B1 /* CLName.m */; };
+		96572E7F1C57A6E90096F1B1 /* CLEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E7E1C57A6E90096F1B1 /* CLEmail.m */; };
+		96572E821C57C1CE0096F1B1 /* CLJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E811C57C1CE0096F1B1 /* CLJob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,14 @@
 		96572E4B1C565FF00096F1B1 /* CLAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLAddress.m; path = CardmanLib/CLAddress.m; sourceTree = "<group>"; };
 		96572E4D1C567FF60096F1B1 /* CMContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMContactListViewController.h; sourceTree = "<group>"; };
 		96572E4E1C567FF60096F1B1 /* CMContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMContactListViewController.m; sourceTree = "<group>"; };
+		96572E771C579F450096F1B1 /* CLPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLPhone.h; path = CardmanLib/CLPhone.h; sourceTree = "<group>"; };
+		96572E781C579F450096F1B1 /* CLPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLPhone.m; path = CardmanLib/CLPhone.m; sourceTree = "<group>"; };
+		96572E7A1C579FD70096F1B1 /* CLName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLName.h; path = CardmanLib/CLName.h; sourceTree = "<group>"; };
+		96572E7B1C579FD70096F1B1 /* CLName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLName.m; path = CardmanLib/CLName.m; sourceTree = "<group>"; };
+		96572E7D1C57A6E90096F1B1 /* CLEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLEmail.h; path = CardmanLib/CLEmail.h; sourceTree = "<group>"; };
+		96572E7E1C57A6E90096F1B1 /* CLEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLEmail.m; path = CardmanLib/CLEmail.m; sourceTree = "<group>"; };
+		96572E801C57C1CE0096F1B1 /* CLJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLJob.h; path = CardmanLib/CLJob.h; sourceTree = "<group>"; };
+		96572E811C57C1CE0096F1B1 /* CLJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLJob.m; path = CardmanLib/CLJob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				96572E441C565F2A0096F1B1 /* CLPerson.m */,
 				96572E4A1C565FF00096F1B1 /* CLAddress.h */,
 				96572E4B1C565FF00096F1B1 /* CLAddress.m */,
+				96572E771C579F450096F1B1 /* CLPhone.h */,
+				96572E781C579F450096F1B1 /* CLPhone.m */,
+				96572E7A1C579FD70096F1B1 /* CLName.h */,
+				96572E7B1C579FD70096F1B1 /* CLName.m */,
+				96572E7D1C57A6E90096F1B1 /* CLEmail.h */,
+				96572E7E1C57A6E90096F1B1 /* CLEmail.m */,
+				96572E801C57C1CE0096F1B1 /* CLJob.h */,
+				96572E811C57C1CE0096F1B1 /* CLJob.m */,
 			);
 			name = CardmanLib;
 			sourceTree = "<group>";
@@ -180,11 +200,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				96572E331C564CC30096F1B1 /* ViewController.m in Sources */,
+				96572E7F1C57A6E90096F1B1 /* CLEmail.m in Sources */,
 				96572E4C1C565FF00096F1B1 /* CLAddress.m in Sources */,
 				96572E301C564CC30096F1B1 /* AppDelegate.m in Sources */,
 				96572E2D1C564CC30096F1B1 /* main.m in Sources */,
 				96572E4F1C567FF60096F1B1 /* CMContactListViewController.m in Sources */,
+				96572E791C579F450096F1B1 /* CLPhone.m in Sources */,
 				96572E451C565F2A0096F1B1 /* CLPerson.m in Sources */,
+				96572E7C1C579FD70096F1B1 /* CLName.m in Sources */,
+				96572E821C57C1CE0096F1B1 /* CLJob.m in Sources */,
 				96572E481C565F5C0096F1B1 /* CLCardman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

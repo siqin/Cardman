@@ -11,7 +11,4 @@
 
 #import "CLCardman.h"
 
-#import "CLPerson.h"
-#import "CLAddress.h"
-
 #endif /* CardmanLib_h */

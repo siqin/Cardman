@@ -11,16 +11,41 @@
 @import AddressBook;
 @import UIKit;
 
-#import "CLPerson.h"
+@interface CLCardman () {
+    ABAddressBookRef _abRef;
+}
+
+@end
 
 @implementation CLCardman
+
++ (CLCardman *)sharedInstance {
+    static CLCardman *_sCardman = nil;
+    if (_sCardman == nil) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            _sCardman = [CLCardman new];
+        });
+    }
+    return _sCardman;
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _abRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    }
+    return self;
+}
+
+#pragma mark - Address book access
 
 + (BOOL)hasAccessToAddressBook {
     ABAuthorizationStatus status = ABAddressBookGetAuthorizationStatus();
     return status == kABAuthorizationStatusAuthorized;
 }
 
-+ (void)requestAccessToAddressBookWithCompletion:(void (^)(BOOL granted))completion {
+- (void)requestAccessToAddressBookWithCompletion:(void (^)(BOOL granted))completion {
     ABAuthorizationStatus status = ABAddressBookGetAuthorizationStatus();
     if (status == kABAuthorizationStatusDenied || status == kABAuthorizationStatusRestricted) {
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -32,8 +57,7 @@
             [alert show];
         });
     } else if (status == kABAuthorizationStatusNotDetermined) {
-        ABAddressBookRef abRef = ABAddressBookCreateWithOptions(NULL, nil);
-        ABAddressBookRequestAccessWithCompletion(abRef, ^(bool granted, CFErrorRef error) {
+        ABAddressBookRequestAccessWithCompletion(_abRef, ^(bool granted, CFErrorRef error) {
             if (completion) completion(granted);
         });
     } else {
@@ -41,28 +65,31 @@
     }
 }
 
-+ (void)readAllContactsWithCompletion:(void (^)(NSArray *contacts, NSError *error))completion {
+- (ABAddressBookRef)abRef {
+    return _abRef;
+}
+
+#pragma mark -
+
+- (void)readAllContactsWithCompletion:(void (^)(NSArray<CLPerson *> *contacts, NSError *error))completion {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         if ([CLCardman hasAccessToAddressBook]) {
             if (completion) completion([self CL_ReadAllContacts], nil);
         } else {
-            [CLCardman requestAccessToAddressBookWithCompletion:^(BOOL granted) {
+            [self requestAccessToAddressBookWithCompletion:^(BOOL granted) {
                 if (granted) {
                     if (completion) completion([self CL_ReadAllContacts], nil);
                 } else {
-                    if (completion) completion(nil, [NSError errorWithDomain:@"" code:-1 userInfo:nil]);
+                    if (completion) completion(nil, [NSError errorWithDomain:@"Access not granted!" code:-1 userInfo:nil]);
                 }
             }];
         }
     });
 }
 
-#pragma mark - 
-
-+ (NSArray *)CL_ReadAllContacts {
-    ABAddressBookRef abRef = ABAddressBookCreateWithOptions(NULL, nil);
-    CFArrayRef allPeople = ABAddressBookCopyArrayOfAllPeople(abRef);
-    CFIndex nPeople = ABAddressBookGetPersonCount(abRef);
+- (NSArray *)CL_ReadAllContacts {
+    CFArrayRef allPeople = ABAddressBookCopyArrayOfAllPeople(_abRef);
+    CFIndex nPeople = ABAddressBookGetPersonCount(_abRef);
     
     NSMutableArray *contacts = [[NSMutableArray alloc] initWithCapacity:nPeople];
     
@@ -73,9 +100,10 @@
     }
     
     CFRelease(allPeople);
-    CFRelease(abRef);
     
     return contacts;
 }
+
+#pragma mark -
 
 @end

@@ -10,4 +10,13 @@
 
 @interface CLAddress : NSObject
 
+@property (nullable, nonatomic, strong) NSString *street;
+@property (nullable, nonatomic, strong) NSString *city;
+@property (nullable, nonatomic, strong) NSString *state;
+@property (nullable, nonatomic, strong) NSString *zip;
+@property (nullable, nonatomic, strong) NSString *country;
+@property (nullable, nonatomic, strong) NSString *countryCode;
+@property (nullable, nonatomic, strong) NSString *originalLabel;
+@property (nullable, nonatomic, strong) NSString *localizedLabel;
+
 @end

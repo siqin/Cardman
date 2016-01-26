@@ -11,7 +11,7 @@
 
 @interface CMContactListViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) NSArray *contactArray;
+@property (nonatomic, strong) NSArray<CLPerson *> *contactArray;
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -28,7 +28,7 @@
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
     
-    [CLCardman readAllContactsWithCompletion:^(NSArray *contacts, NSError *error) {
+    [[CLCardman sharedInstance] readAllContactsWithCompletion:^(NSArray *contacts, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
             self.contactArray = contacts;
             [self.tableView reloadData];
@@ -58,14 +58,14 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString * const cellIdentifier = @"cellIdentifier";
+    static NSString * cellIdentifier = @"cellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
     CLPerson *person = self.contactArray[indexPath.row];
-    cell.textLabel.text = person.firstName;
+    cell.textLabel.text = person.name.compositeName;
     
     return cell;
 }

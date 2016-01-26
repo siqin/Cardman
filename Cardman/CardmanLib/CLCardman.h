@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "CLPerson.h"
+
 typedef enum : NSUInteger {
     kCLAccessStatusNotDetermined = 0,
     kCLAccessStatusDenied,
@@ -16,10 +18,16 @@ typedef enum : NSUInteger {
 
 @interface CLCardman : NSObject
 
+@property (nonatomic, readonly) ABAddressBookRef abRef;
+
++ (CLCardman *)sharedInstance;
+
 + (BOOL)hasAccessToAddressBook;
 
-+ (void)requestAccessToAddressBookWithCompletion:(void (^)(BOOL granted))completion;
+- (void)requestAccessToAddressBookWithCompletion:(void (^)(BOOL granted))completion;
 
-+ (void)readAllContactsWithCompletion:(void (^)(NSArray *contacts, NSError *error))completion;
+#pragma mark - 
+
+- (void)readAllContactsWithCompletion:(void (^)(NSArray<CLPerson *> *contacts, NSError *error))completion;
 
 @end
