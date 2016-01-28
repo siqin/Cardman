@@ -11,6 +11,7 @@
 @interface CLJob : NSObject
 
 @property (nonatomic, strong) NSString *organization;
+@property (nonatomic, strong) NSString *department;
 @property (nonatomic, strong) NSString *jobTitle;
 
 @end

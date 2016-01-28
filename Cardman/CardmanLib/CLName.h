@@ -13,6 +13,15 @@
 @property (nonatomic, strong) NSString *firstName;
 @property (nonatomic, strong) NSString *lastName;
 @property (nonatomic, strong) NSString *middleName;
+
 @property (nonatomic, strong) NSString *compositeName;
+@property (nonatomic, strong) NSString *nickname;
+
+@property (nonatomic, strong) NSString *prefix;
+@property (nonatomic, strong) NSString *suffix;
+
+@property (nonatomic, strong) NSString *firstNamePhonetic;
+@property (nonatomic, strong) NSString *lastNamePhonetic;
+@property (nonatomic, strong) NSString *middleNamePhonetic;
 
 @end

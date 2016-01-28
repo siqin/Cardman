@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		964F05801C5A6A3D00FC4177 /* CLRecordDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F057F1C5A6A3D00FC4177 /* CLRecordDate.m */; };
+		964F05861C5A6AD300FC4177 /* CLPersonDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F05851C5A6AD300FC4177 /* CLPersonDate.m */; };
+		964F05891C5A6C9600FC4177 /* CLSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F05881C5A6C9600FC4177 /* CLSocialProfile.m */; };
+		964F058C1C5A79F900FC4177 /* CLInstantMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F058B1C5A79F900FC4177 /* CLInstantMessage.m */; };
+		964F058F1C5A7E0300FC4177 /* CLRelatedName.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F058E1C5A7E0300FC4177 /* CLRelatedName.m */; };
+		964F05921C5A7EC500FC4177 /* CLRecordSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F05911C5A7EC500FC4177 /* CLRecordSource.m */; };
+		964F05951C5A7F4500FC4177 /* CLAlternateBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F05941C5A7F4500FC4177 /* CLAlternateBirthday.m */; };
 		96572E2D1C564CC30096F1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E2C1C564CC30096F1B1 /* main.m */; };
 		96572E301C564CC30096F1B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E2F1C564CC30096F1B1 /* AppDelegate.m */; };
 		96572E331C564CC30096F1B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E321C564CC30096F1B1 /* ViewController.m */; };
@@ -24,6 +31,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		964F057E1C5A6A3D00FC4177 /* CLRecordDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLRecordDate.h; path = CardmanLib/CLRecordDate.h; sourceTree = "<group>"; };
+		964F057F1C5A6A3D00FC4177 /* CLRecordDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLRecordDate.m; path = CardmanLib/CLRecordDate.m; sourceTree = "<group>"; };
+		964F05841C5A6AD300FC4177 /* CLPersonDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLPersonDate.h; path = CardmanLib/CLPersonDate.h; sourceTree = "<group>"; };
+		964F05851C5A6AD300FC4177 /* CLPersonDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLPersonDate.m; path = CardmanLib/CLPersonDate.m; sourceTree = "<group>"; };
+		964F05871C5A6C9600FC4177 /* CLSocialProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSocialProfile.h; path = CardmanLib/CLSocialProfile.h; sourceTree = "<group>"; };
+		964F05881C5A6C9600FC4177 /* CLSocialProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLSocialProfile.m; path = CardmanLib/CLSocialProfile.m; sourceTree = "<group>"; };
+		964F058A1C5A79F900FC4177 /* CLInstantMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLInstantMessage.h; path = CardmanLib/CLInstantMessage.h; sourceTree = "<group>"; };
+		964F058B1C5A79F900FC4177 /* CLInstantMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLInstantMessage.m; path = CardmanLib/CLInstantMessage.m; sourceTree = "<group>"; };
+		964F058D1C5A7E0300FC4177 /* CLRelatedName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLRelatedName.h; path = CardmanLib/CLRelatedName.h; sourceTree = "<group>"; };
+		964F058E1C5A7E0300FC4177 /* CLRelatedName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLRelatedName.m; path = CardmanLib/CLRelatedName.m; sourceTree = "<group>"; };
+		964F05901C5A7EC500FC4177 /* CLRecordSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLRecordSource.h; path = CardmanLib/CLRecordSource.h; sourceTree = "<group>"; };
+		964F05911C5A7EC500FC4177 /* CLRecordSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLRecordSource.m; path = CardmanLib/CLRecordSource.m; sourceTree = "<group>"; };
+		964F05931C5A7F4500FC4177 /* CLAlternateBirthday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAlternateBirthday.h; path = CardmanLib/CLAlternateBirthday.h; sourceTree = "<group>"; };
+		964F05941C5A7F4500FC4177 /* CLAlternateBirthday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLAlternateBirthday.m; path = CardmanLib/CLAlternateBirthday.m; sourceTree = "<group>"; };
 		96572E281C564CC30096F1B1 /* Cardman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96572E2C1C564CC30096F1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96572E2E1C564CC30096F1B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +146,20 @@
 				96572E7E1C57A6E90096F1B1 /* CLEmail.m */,
 				96572E801C57C1CE0096F1B1 /* CLJob.h */,
 				96572E811C57C1CE0096F1B1 /* CLJob.m */,
+				964F057E1C5A6A3D00FC4177 /* CLRecordDate.h */,
+				964F057F1C5A6A3D00FC4177 /* CLRecordDate.m */,
+				964F05841C5A6AD300FC4177 /* CLPersonDate.h */,
+				964F05851C5A6AD300FC4177 /* CLPersonDate.m */,
+				964F05871C5A6C9600FC4177 /* CLSocialProfile.h */,
+				964F05881C5A6C9600FC4177 /* CLSocialProfile.m */,
+				964F058A1C5A79F900FC4177 /* CLInstantMessage.h */,
+				964F058B1C5A79F900FC4177 /* CLInstantMessage.m */,
+				964F058D1C5A7E0300FC4177 /* CLRelatedName.h */,
+				964F058E1C5A7E0300FC4177 /* CLRelatedName.m */,
+				964F05901C5A7EC500FC4177 /* CLRecordSource.h */,
+				964F05911C5A7EC500FC4177 /* CLRecordSource.m */,
+				964F05931C5A7F4500FC4177 /* CLAlternateBirthday.h */,
+				964F05941C5A7F4500FC4177 /* CLAlternateBirthday.m */,
 			);
 			name = CardmanLib;
 			sourceTree = "<group>";
@@ -200,16 +235,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				96572E331C564CC30096F1B1 /* ViewController.m in Sources */,
+				964F05801C5A6A3D00FC4177 /* CLRecordDate.m in Sources */,
 				96572E7F1C57A6E90096F1B1 /* CLEmail.m in Sources */,
 				96572E4C1C565FF00096F1B1 /* CLAddress.m in Sources */,
 				96572E301C564CC30096F1B1 /* AppDelegate.m in Sources */,
+				964F05921C5A7EC500FC4177 /* CLRecordSource.m in Sources */,
+				964F05951C5A7F4500FC4177 /* CLAlternateBirthday.m in Sources */,
 				96572E2D1C564CC30096F1B1 /* main.m in Sources */,
 				96572E4F1C567FF60096F1B1 /* CMContactListViewController.m in Sources */,
 				96572E791C579F450096F1B1 /* CLPhone.m in Sources */,
+				964F058C1C5A79F900FC4177 /* CLInstantMessage.m in Sources */,
 				96572E451C565F2A0096F1B1 /* CLPerson.m in Sources */,
+				964F05891C5A6C9600FC4177 /* CLSocialProfile.m in Sources */,
+				964F058F1C5A7E0300FC4177 /* CLRelatedName.m in Sources */,
 				96572E7C1C579FD70096F1B1 /* CLName.m in Sources */,
 				96572E821C57C1CE0096F1B1 /* CLJob.m in Sources */,
 				96572E481C565F5C0096F1B1 /* CLCardman.m in Sources */,
+				964F05861C5A6AD300FC4177 /* CLPersonDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +400,7 @@
 				96572E411C564CC30096F1B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

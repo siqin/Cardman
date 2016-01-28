@@ -9,12 +9,28 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cardman/CMContactListViewController.m"
-            timestampString = "475431882.605217"
+            filePath = "Cardman/CardmanLib/CLPerson.m"
+            timestampString = "475690580.18365"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "+personFromABRecordRef:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cardman/CMContactListViewController.m"
+            timestampString = "475693951.417465"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cardman/CardmanLib/CLPerson.m"
-            timestampString = "475515591.11532"
+            timestampString = "475694491.971924"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "+personFromABRecordRef:"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
+            landmarkName = "+extractAlternateBirthdayFromABRecordRef:intoCLPerson:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

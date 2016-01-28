@@ -23,10 +23,39 @@
     
     [CLPerson extractPhonesFromABRecordRef:abRecordRef intoCLPerson:clPerson];
     
+    [CLPerson extractRecordDateFromABRecordRef:abRecordRef intoCLPerson:clPerson];
+    
     return clPerson;
 }
 
 #pragma mark - getter for lazy load
+
+- (NSDate *)birthday {
+    if (!_birthday) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        _birthday = [CLPerson readDateProperty:kABPersonBirthdayProperty fromABRecordRef:abRecrodRef];
+    }
+    return _birthday;
+}
+
+- (NSString *)note {
+    if (!_note) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        _note = [CLPerson readStringProperty:kABPersonNoteProperty fromABRecordRef:abRecrodRef];
+    }
+    return _note;
+}
+
+- (CLJob *)job {
+    if (!_job) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        _job = [CLJob new];
+        _job.organization = [CLPerson readStringProperty:kABPersonOrganizationProperty fromABRecordRef:abRecrodRef];
+        _job.department = [CLPerson readStringProperty:kABPersonDepartmentProperty fromABRecordRef:abRecrodRef];
+        _job.jobTitle = [CLPerson readStringProperty:kABPersonJobTitleProperty fromABRecordRef:abRecrodRef];
+    }
+    return _job;
+}
 
 - (NSArray <CLAddress *> *)addresses {
     if (!_addresses) {
@@ -52,30 +81,60 @@
     return _websites;
 }
 
-- (NSDate *)birthday {
-    if (!_birthday) {
+- (NSArray <CLPersonDate *> *)dates {
+    if (!_dates) {
         ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
-        _birthday = [CLPerson readDateProperty:kABPersonBirthdayProperty fromABRecordRef:abRecrodRef];
+        [CLPerson extractDatesFromABRecordRef:abRecrodRef intoCLPerson:self];
     }
-    return _birthday;
+    return _dates;
 }
 
-- (NSString *)note {
-    if (!_note) {
+- (NSArray <CLSocialProfile *> *)socialProfiles {
+    if (!_socialProfiles) {
         ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
-        _note = [CLPerson readStringProperty:kABPersonNoteProperty fromABRecordRef:abRecrodRef];
+        [CLPerson extractSocialProfilesFromABRecordRef:abRecrodRef intoCLPerson:self];
     }
-    return _note;
+    return _socialProfiles;
 }
 
-- (CLJob *)job {
-    if (!_job) {
+- (NSArray <CLInstantMessage *> *)IMAccounts {
+    if (!_IMAccounts) {
         ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
-        _job = [CLJob new];
-        _job.organization = [CLPerson readStringProperty:kABPersonOrganizationProperty fromABRecordRef:abRecrodRef];
-        _job.jobTitle = [CLPerson readStringProperty:kABPersonJobTitleProperty fromABRecordRef:abRecrodRef];
+        [CLPerson extractIMAccountsFromABRecordRef:abRecrodRef intoCLPerson:self];
     }
-    return _job;
+    return _IMAccounts;
+}
+
+- (NSArray <CLRelatedName *> *)relatedNames {
+    if (!_relatedNames) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        [CLPerson extractRelatedNamesFromABRecordRef:abRecrodRef intoCLPerson:self];
+    }
+    return _relatedNames;
+}
+
+- (NSArray <NSNumber *> *)linkedRecordIDs {
+    if (!_linkedRecordIDs) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        [CLPerson extractLinkedRecordIdsFromABRecordRef:abRecrodRef intoCLPerson:self];
+    }
+    return _linkedRecordIDs;
+}
+
+- (CLRecordSource *)source {
+    if (!_source) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        [CLPerson extractRecordSourceFromABRecordRef:abRecrodRef intoCLPerson:self];
+    }
+    return _source;
+}
+
+- (CLAlternateBirthday *)alternateBirthday {
+    if (!_alternateBirthday) {
+        ABRecordRef abRecrodRef = ABAddressBookGetPersonWithRecordID([CLCardman sharedInstance].abRef, self.recordId.intValue);
+        [CLPerson extractAlternateBirthdayFromABRecordRef:abRecrodRef intoCLPerson:self];
+    }
+    return _alternateBirthday;
 }
 
 #pragma mark - extract properties
@@ -87,8 +146,15 @@
     clPerson.name.lastName = [CLPerson readStringProperty:kABPersonLastNameProperty fromABRecordRef:abRecordRef];
     clPerson.name.middleName = [CLPerson readStringProperty:kABPersonMiddleNameProperty fromABRecordRef:abRecordRef];
     
-    CFStringRef compositeNameRef = ABRecordCopyCompositeName(abRecordRef);
-    clPerson.name.compositeName =  (__bridge_transfer NSString *)compositeNameRef;
+    clPerson.name.compositeName =  (__bridge_transfer NSString *)ABRecordCopyCompositeName(abRecordRef);
+    clPerson.name.nickname =  [CLPerson readStringProperty:kABPersonNicknameProperty fromABRecordRef:abRecordRef];
+    
+    clPerson.name.prefix =  [CLPerson readStringProperty:kABPersonPrefixProperty fromABRecordRef:abRecordRef];
+    clPerson.name.suffix =  [CLPerson readStringProperty:kABPersonSuffixProperty fromABRecordRef:abRecordRef];
+    
+    clPerson.name.firstNamePhonetic = [CLPerson readStringProperty:kABPersonFirstNamePhoneticProperty fromABRecordRef:abRecordRef];
+    clPerson.name.lastNamePhonetic = [CLPerson readStringProperty:kABPersonLastNamePhoneticProperty fromABRecordRef:abRecordRef];
+    clPerson.name.middleNamePhonetic = [CLPerson readStringProperty:kABPersonMiddleNamePhoneticProperty fromABRecordRef:abRecordRef];
 }
 
 + (void)extractPhonesFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
@@ -109,6 +175,15 @@
     }
     
     clPerson.phones = phones.count > 0 ? phones : nil;
+}
+
++ (void)extractRecordDateFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    CLRecordDate *clRecordDate = [CLRecordDate new];
+    
+    clRecordDate.createDate = [self readDateProperty:kABPersonCreationDateProperty fromABRecordRef:abRecordRef];
+    clRecordDate.modifyDate = [self readDateProperty:kABPersonModificationDateProperty fromABRecordRef:abRecordRef];
+    
+    clPerson.recordDate = clRecordDate;
 }
 
 + (void)extractAddressesFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
@@ -171,6 +246,128 @@
     }
     
     clPerson.websites = websites.count > 0 ? websites : nil;
+}
+
++ (void)extractDatesFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    NSMutableArray <CLPersonDate *> *dates = [[NSMutableArray alloc] init];
+    ABMultiValueRef multiValue = ABRecordCopyValue(abRecordRef, kABPersonDateProperty);
+    if (multiValue) {
+        CFIndex count = ABMultiValueGetCount(multiValue);
+        for (CFIndex i = 0; i < count; i++) {
+            CLPersonDate *date = [CLPersonDate new];
+            date.date = (__bridge_transfer NSDate *)ABMultiValueCopyValueAtIndex(multiValue, i);
+            date.originalLabel = (__bridge_transfer NSString *)ABMultiValueCopyLabelAtIndex(multiValue, i);
+            date.localizedLabel = (__bridge_transfer NSString *)ABAddressBookCopyLocalizedLabel((__bridge CFStringRef)(date.originalLabel));
+            [dates addObject:date];
+        }
+        CFRelease(multiValue);
+    }
+    
+    clPerson.dates = dates.count > 0 ? dates : nil;
+}
+
++ (void)extractSocialProfilesFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    NSMutableArray <CLSocialProfile *> *profiles = [[NSMutableArray alloc] init];
+    ABMultiValueRef multiValue = ABRecordCopyValue(abRecordRef, kABPersonSocialProfileProperty);
+    if (multiValue) {
+        CFIndex count = ABMultiValueGetCount(multiValue);
+        for (CFIndex i = 0; i < count; i++) {
+            CLSocialProfile *profile = [CLSocialProfile new];
+            NSDictionary *dictionary = (__bridge_transfer NSDictionary *)ABMultiValueCopyValueAtIndex(multiValue, i);
+            profile.type = [CLSocialProfile typeFromSocialServiceKey:dictionary[(__bridge NSString *)kABPersonSocialProfileServiceKey]];
+            profile.url = dictionary[(__bridge NSString *)kABPersonSocialProfileURLKey];
+            profile.username = dictionary[(__bridge NSString *)kABPersonSocialProfileUsernameKey];
+            profile.userIdentifier = dictionary[(__bridge NSString *)kABPersonSocialProfileUserIdentifierKey];
+            [profiles addObject:profile];
+        }
+        CFRelease(multiValue);
+    }
+    
+    clPerson.socialProfiles = profiles.count > 0 ? profiles : nil;
+}
+
++ (void)extractIMAccountsFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    NSMutableArray <CLInstantMessage *> *accounts = [[NSMutableArray alloc] init];
+    ABMultiValueRef multiValue = ABRecordCopyValue(abRecordRef, kABPersonSocialProfileProperty);
+    if (multiValue) {
+        CFIndex count = ABMultiValueGetCount(multiValue);
+        for (CFIndex i = 0; i < count; i++) {
+            CLInstantMessage *im = [CLInstantMessage new];
+            NSDictionary *dictionary = (__bridge_transfer NSDictionary *)ABMultiValueCopyValueAtIndex(multiValue, i);
+            im.type = [CLInstantMessage typeFromIMServiceKey:dictionary[(__bridge NSString *)kABPersonInstantMessageServiceKey]];
+            im.username = dictionary[(__bridge NSString *)kABPersonInstantMessageUsernameKey];
+            [accounts addObject:im];
+        }
+        CFRelease(multiValue);
+    }
+    
+    clPerson.IMAccounts = accounts.count > 0 ? accounts : nil;
+}
+
++ (void)extractRelatedNamesFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    NSMutableArray <CLRelatedName *> *names = [[NSMutableArray alloc] init];
+    ABMultiValueRef multiValue = ABRecordCopyValue(abRecordRef, kABPersonEmailProperty);
+    if (multiValue) {
+        CFIndex count = ABMultiValueGetCount(multiValue);
+        for (CFIndex i = 0; i < count; i++) {
+            CLRelatedName *name = [CLRelatedName new];
+            
+            name.name = (__bridge_transfer NSString *)ABMultiValueCopyValueAtIndex(multiValue, i);
+            name.originalLabel = (__bridge_transfer NSString *)ABMultiValueCopyLabelAtIndex(multiValue, i);
+            name.localizedLabel = (__bridge_transfer NSString *)ABAddressBookCopyLocalizedLabel((__bridge CFStringRef)(name.originalLabel));
+            
+            [names addObject:name];
+        }
+        CFRelease(multiValue);
+    }
+    
+    clPerson.relatedNames = names.count > 0 ? names : nil;
+}
+
++ (void)extractLinkedRecordIdsFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    NSMutableOrderedSet *linkedRecordIDs = [[NSMutableOrderedSet alloc] init];
+    CFArrayRef linkedPeopleRef = ABPersonCopyArrayOfAllLinkedPeople(abRecordRef);
+    CFIndex count = CFArrayGetCount(linkedPeopleRef);
+    NSNumber *contactRecordID = @(ABRecordGetRecordID(abRecordRef));
+    for (CFIndex i = 0; i < count; i++) {
+        ABRecordRef linkedRecordRef = CFArrayGetValueAtIndex(linkedPeopleRef, i);
+        NSNumber *linkedRecordID = @(ABRecordGetRecordID(linkedRecordRef));
+        if (![linkedRecordID isEqualToNumber:contactRecordID]) {
+            [linkedRecordIDs addObject:linkedRecordID];
+        }
+    }
+    CFRelease(linkedPeopleRef);
+    clPerson.linkedRecordIDs = linkedRecordIDs.array;
+}
+
++ (void)extractRecordSourceFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    ABRecordRef sourceRef = ABPersonCopySource(abRecordRef);
+    if (sourceRef) {
+        CLRecordSource *source = [[CLRecordSource alloc] init];
+        source.sourceType = [self readStringProperty:kABSourceNameProperty fromABRecordRef:abRecordRef];
+        source.sourceID =  @(ABRecordGetRecordID(sourceRef));
+        clPerson.source = source;
+        
+        CFRelease(sourceRef);
+    }
+}
+
++ (void)extractAlternateBirthdayFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {
+    ABMultiValueRef multiValue = ABRecordCopyValue(abRecordRef, kABPersonAlternateBirthdayProperty);
+    if (multiValue) {
+        CLAlternateBirthday *birthday = [CLAlternateBirthday new];
+        NSDictionary *dictionary = (__bridge_transfer NSDictionary *)multiValue;
+        // kCFChineseCalendar
+        birthday.calendarIdentifier = dictionary[(__bridge NSString *)kABPersonAlternateBirthdayCalendarIdentifierKey];
+        birthday.era = [dictionary[(__bridge NSString *)kABPersonAlternateBirthdayEraKey] integerValue];
+        birthday.year = [dictionary[(__bridge NSString *)kABPersonAlternateBirthdayYearKey] integerValue];
+        birthday.month = [dictionary[(__bridge NSString *)kABPersonAlternateBirthdayMonthKey] integerValue];
+        birthday.day = [dictionary[(__bridge NSString *)kABPersonAlternateBirthdayDayKey] integerValue];
+        birthday.isLeapMonth = [dictionary[(__bridge NSString *)kABPersonAlternateBirthdayIsLeapMonthKey] boolValue];
+        clPerson.alternateBirthday = birthday;
+        
+        CFRelease(multiValue);
+    }
 }
 
 #pragma mark -
