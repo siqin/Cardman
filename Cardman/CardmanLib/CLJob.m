@@ -10,4 +10,20 @@
 
 @implementation CLJob
 
+- (BOOL)hasInfo {
+    return self.organization.length > 0 || self.department.length > 0 || self.title.length > 0;
+}
+
+- (NSString *)fullJobTitle {
+    if (![self hasInfo]) return nil;
+    
+    NSMutableString *fullTitle = [NSMutableString new];
+    
+    if (self.title.length > 0) [fullTitle appendString:self.title];
+    if (self.department.length > 0) [fullTitle appendFormat:@", %@", self.department];
+    if (self.organization.length > 0) [fullTitle appendFormat:@", %@", self.organization];
+    
+    return fullTitle;
+}
+
 @end

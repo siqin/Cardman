@@ -28,9 +28,18 @@
 		96572E7C1C579FD70096F1B1 /* CLName.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E7B1C579FD70096F1B1 /* CLName.m */; };
 		96572E7F1C57A6E90096F1B1 /* CLEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E7E1C57A6E90096F1B1 /* CLEmail.m */; };
 		96572E821C57C1CE0096F1B1 /* CLJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E811C57C1CE0096F1B1 /* CLJob.m */; };
+		9692BB321C5BA89200417C33 /* SMSIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB2E1C5BA89200417C33 /* SMSIcon@2x.png */; };
+		9692BB331C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB2F1C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png */; };
+		9692BB341C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB301C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png */; };
+		9692BB351C5BA89200417C33 /* DialIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB311C5BA89200417C33 /* DialIcon@2x.png */; };
+		9692BB381C5BA8F700417C33 /* CLContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692BB371C5BA8F700417C33 /* CLContactsTableViewCell.m */; };
+		9692BB531C5BBC1300417C33 /* UIView+CLFrameShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692BB521C5BBC1300417C33 /* UIView+CLFrameShortcut.m */; };
+		BC17E4AA4C5E32D08936FAB4 /* libPods-Cardman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6030446E39B4AA22C57EEEA /* libPods-Cardman.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373E5B63A6BDB3D50E80981F /* Pods-Cardman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cardman/Pods-Cardman.debug.xcconfig"; sourceTree = "<group>"; };
+		923DABCDC9C59B092161B582 /* Pods-Cardman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardman.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cardman/Pods-Cardman.release.xcconfig"; sourceTree = "<group>"; };
 		964F057E1C5A6A3D00FC4177 /* CLRecordDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLRecordDate.h; path = CardmanLib/CLRecordDate.h; sourceTree = "<group>"; };
 		964F057F1C5A6A3D00FC4177 /* CLRecordDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLRecordDate.m; path = CardmanLib/CLRecordDate.m; sourceTree = "<group>"; };
 		964F05841C5A6AD300FC4177 /* CLPersonDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLPersonDate.h; path = CardmanLib/CLPersonDate.h; sourceTree = "<group>"; };
@@ -72,6 +81,16 @@
 		96572E7E1C57A6E90096F1B1 /* CLEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLEmail.m; path = CardmanLib/CLEmail.m; sourceTree = "<group>"; };
 		96572E801C57C1CE0096F1B1 /* CLJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLJob.h; path = CardmanLib/CLJob.h; sourceTree = "<group>"; };
 		96572E811C57C1CE0096F1B1 /* CLJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLJob.m; path = CardmanLib/CLJob.m; sourceTree = "<group>"; };
+		9692BB2E1C5BA89200417C33 /* SMSIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMSIcon@2x.png"; sourceTree = "<group>"; };
+		9692BB2F1C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLDefaultAvatar_Female@2x.png"; sourceTree = "<group>"; };
+		9692BB301C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLDefaultAvatar_Male@2x.png"; sourceTree = "<group>"; };
+		9692BB311C5BA89200417C33 /* DialIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialIcon@2x.png"; sourceTree = "<group>"; };
+		9692BB361C5BA8F700417C33 /* CLContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLContactsTableViewCell.h; sourceTree = "<group>"; };
+		9692BB371C5BA8F700417C33 /* CLContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLContactsTableViewCell.m; sourceTree = "<group>"; };
+		9692BB511C5BBC1300417C33 /* UIView+CLFrameShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CLFrameShortcut.h"; path = "Category/UIView+CLFrameShortcut.h"; sourceTree = "<group>"; };
+		9692BB521C5BBC1300417C33 /* UIView+CLFrameShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CLFrameShortcut.m"; path = "Category/UIView+CLFrameShortcut.m"; sourceTree = "<group>"; };
+		9692BB551C5BBE5300417C33 /* CLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLObject.h; path = CardmanLib/CLObject.h; sourceTree = "<group>"; };
+		C6030446E39B4AA22C57EEEA /* libPods-Cardman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cardman.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,17 +98,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC17E4AA4C5E32D08936FAB4 /* libPods-Cardman.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86D0E0B22B96F9DDBE1887F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				373E5B63A6BDB3D50E80981F /* Pods-Cardman.debug.xcconfig */,
+				923DABCDC9C59B092161B582 /* Pods-Cardman.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		96572E1F1C564CC30096F1B1 = {
 			isa = PBXGroup;
 			children = (
 				96572E2A1C564CC30096F1B1 /* Cardman */,
 				96572E291C564CC30096F1B1 /* Products */,
+				86D0E0B22B96F9DDBE1887F4 /* Pods */,
+				CE3CCB63551AC4E0EEE391F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +135,8 @@
 		96572E2A1C564CC30096F1B1 /* Cardman */ = {
 			isa = PBXGroup;
 			children = (
+				9692BB501C5BBC0000417C33 /* Category */,
+				9692BB2C1C5BA89200417C33 /* Resource */,
 				96572E421C565E870096F1B1 /* CardmanLib */,
 				96572E2E1C564CC30096F1B1 /* AppDelegate.h */,
 				96572E2F1C564CC30096F1B1 /* AppDelegate.m */,
@@ -116,6 +149,8 @@
 				96572E2B1C564CC30096F1B1 /* Supporting Files */,
 				96572E4D1C567FF60096F1B1 /* CMContactListViewController.h */,
 				96572E4E1C567FF60096F1B1 /* CMContactListViewController.m */,
+				9692BB361C5BA8F700417C33 /* CLContactsTableViewCell.h */,
+				9692BB371C5BA8F700417C33 /* CLContactsTableViewCell.m */,
 			);
 			path = Cardman;
 			sourceTree = "<group>";
@@ -160,8 +195,45 @@
 				964F05911C5A7EC500FC4177 /* CLRecordSource.m */,
 				964F05931C5A7F4500FC4177 /* CLAlternateBirthday.h */,
 				964F05941C5A7F4500FC4177 /* CLAlternateBirthday.m */,
+				9692BB551C5BBE5300417C33 /* CLObject.h */,
 			);
 			name = CardmanLib;
+			sourceTree = "<group>";
+		};
+		9692BB2C1C5BA89200417C33 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9692BB2D1C5BA89200417C33 /* Icons */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9692BB2D1C5BA89200417C33 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9692BB311C5BA89200417C33 /* DialIcon@2x.png */,
+				9692BB2E1C5BA89200417C33 /* SMSIcon@2x.png */,
+				9692BB2F1C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png */,
+				9692BB301C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		9692BB501C5BBC0000417C33 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9692BB511C5BBC1300417C33 /* UIView+CLFrameShortcut.h */,
+				9692BB521C5BBC1300417C33 /* UIView+CLFrameShortcut.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CE3CCB63551AC4E0EEE391F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6030446E39B4AA22C57EEEA /* libPods-Cardman.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96572E3F1C564CC30096F1B1 /* Build configuration list for PBXNativeTarget "Cardman" */;
 			buildPhases = (
+				DD00BC27634A3513D3167B4B /* Check Pods Manifest.lock */,
 				96572E241C564CC30096F1B1 /* Sources */,
 				96572E251C564CC30096F1B1 /* Frameworks */,
 				96572E261C564CC30096F1B1 /* Resources */,
+				E19C9476E40E68BE4D79CD02 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,13 +295,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9692BB351C5BA89200417C33 /* DialIcon@2x.png in Resources */,
 				96572E3B1C564CC30096F1B1 /* LaunchScreen.storyboard in Resources */,
 				96572E381C564CC30096F1B1 /* Assets.xcassets in Resources */,
+				9692BB331C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png in Resources */,
 				96572E361C564CC30096F1B1 /* Main.storyboard in Resources */,
+				9692BB321C5BA89200417C33 /* SMSIcon@2x.png in Resources */,
+				9692BB341C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD00BC27634A3513D3167B4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E19C9476E40E68BE4D79CD02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cardman/Pods-Cardman-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96572E241C564CC30096F1B1 /* Sources */ = {
@@ -235,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96572E331C564CC30096F1B1 /* ViewController.m in Sources */,
+				9692BB381C5BA8F700417C33 /* CLContactsTableViewCell.m in Sources */,
 				964F05801C5A6A3D00FC4177 /* CLRecordDate.m in Sources */,
 				96572E7F1C57A6E90096F1B1 /* CLEmail.m in Sources */,
 				96572E4C1C565FF00096F1B1 /* CLAddress.m in Sources */,
@@ -251,6 +363,7 @@
 				96572E7C1C579FD70096F1B1 /* CLName.m in Sources */,
 				96572E821C57C1CE0096F1B1 /* CLJob.m in Sources */,
 				96572E481C565F5C0096F1B1 /* CLCardman.m in Sources */,
+				9692BB531C5BBC1300417C33 /* UIView+CLFrameShortcut.m in Sources */,
 				964F05861C5A6AD300FC4177 /* CLPersonDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +472,7 @@
 		};
 		96572E401C564CC30096F1B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373E5B63A6BDB3D50E80981F /* Pods-Cardman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cardman/Info.plist;
@@ -371,6 +485,7 @@
 		};
 		96572E411C564CC30096F1B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923DABCDC9C59B092161B582 /* Pods-Cardman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cardman/Info.plist;

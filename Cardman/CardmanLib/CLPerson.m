@@ -52,7 +52,7 @@
         _job = [CLJob new];
         _job.organization = [CLPerson readStringProperty:kABPersonOrganizationProperty fromABRecordRef:abRecrodRef];
         _job.department = [CLPerson readStringProperty:kABPersonDepartmentProperty fromABRecordRef:abRecrodRef];
-        _job.jobTitle = [CLPerson readStringProperty:kABPersonJobTitleProperty fromABRecordRef:abRecrodRef];
+        _job.title = [CLPerson readStringProperty:kABPersonJobTitleProperty fromABRecordRef:abRecrodRef];
     }
     return _job;
 }

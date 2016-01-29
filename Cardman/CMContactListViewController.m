@@ -8,6 +8,7 @@
 
 #import "CMContactListViewController.h"
 #import "CardmanLib.h"
+#import "CLContactsTableViewCell.h"
 
 @interface CMContactListViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -23,9 +24,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.title = @"联系人";
+    
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:self.tableView];
     
     [[CLCardman sharedInstance] readAllContactsWithCompletion:^(NSArray *contacts, NSError *error) {
@@ -59,21 +63,44 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString * cellIdentifier = @"cellIdentifier";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    CLContactsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell = [[CLContactsTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
     }
     
-    CLPerson *person = self.contactArray[indexPath.row];
-    cell.textLabel.text = person.name.compositeName;
+    CLPerson *clPerson = self.contactArray[indexPath.row];
+    [cell configWithCLPerson:clPerson];
+    
+    cell.rightButtons = @[[MGSwipeButton buttonWithTitle:@"发短信"
+                                         backgroundColor:[UIColor greenColor]
+                                                callback:^BOOL(MGSwipeTableCell *sender) {
+                                                    return YES;
+                                                }],
+                          [MGSwipeButton buttonWithTitle:@"打电话"
+                                         backgroundColor:[UIColor blueColor]
+                                                callback:^BOOL(MGSwipeTableCell *sender) {
+                                                    return YES;
+                                                }]
+                          ];
+    cell.rightSwipeSettings.transition = MGSwipeTransition3D;
     
     return cell;
 }
 
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
 #pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60.0f;
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    CLContactsTableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
 }
 
 #pragma mark -

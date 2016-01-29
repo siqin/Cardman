@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CLObject.h"
 
-@interface CLJob : NSObject
+@interface CLJob : NSObject <CLObject>
 
 @property (nonatomic, strong) NSString *organization;
 @property (nonatomic, strong) NSString *department;
-@property (nonatomic, strong) NSString *jobTitle;
+@property (nonatomic, strong) NSString *title;
+
+- (NSString *)fullJobTitle;
 
 @end
