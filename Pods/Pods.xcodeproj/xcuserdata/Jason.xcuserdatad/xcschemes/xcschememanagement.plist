@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Cardman-UIActionSheet+Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Cardman-UIAlertView+Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Cardman.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2F6524849AC80B01D94ACA89</key>
+		<key>20B20B00F626B5E2B9ABDDDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7A9CFB024B9A51F07B4F539</key>
+		<key>496502E6BAEA0D04C074A02B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A8D046BD43C1A63800BBBF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCEAE68A2F558A2E7D00A30D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

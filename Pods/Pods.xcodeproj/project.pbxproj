@@ -10,23 +10,386 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>03D6100A4EB9762219689B4D</key>
+		<key>0188C0A801C43DEC8C0DB49E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-Cardman-acknowledgements.markdown</string>
+			<string>UIActionSheet+Blocks.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>05095F1321E023555EBC6CA3</key>
+		<key>01A405C43B00F3090FB31CA1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>373CDE9E89017A689B869988</string>
+				<string>8B90805108805B865FAF0C79</string>
+				<string>14A907FD6420C12BCA97B910</string>
+				<string>5B9C455388712A700FC6C255</string>
+				<string>343902D6680ED3E3BD7D8518</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MGSwipeTableCell</string>
+			<key>path</key>
+			<string>MGSwipeTableCell</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02F529074A6F8CC19ACFDC67</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F900DF149AC05A850C9508E2</string>
+				<string>386BE8D786FA49D674941D58</string>
+				<string>9AE585BC55EAA2C2EF7AC0E5</string>
+				<string>E3C8AB310D76FEAB528DF80A</string>
+				<string>96E72A81EBDF0D285AD31377</string>
+				<string>42AD716CA6522BA7A1F2920A</string>
+				<string>26C16B1EF945134AF6655793</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Cardman</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Cardman</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0500267EF5FAD1DD0B13EC61</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EEA4D2EB7F9DD26AB72C0747</string>
+				<string>D8491CDD32A01AA3FE02D7E5</string>
+				<string>EF17458DDF6BFF65FB9EDE45</string>
+				<string>C2E569B86EC91C78B3751F39</string>
+				<string>C0B64E59E59579684B939343</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>077FCDBFE3FF784479713E1E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E05A09127C434B7C663AAF6F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0888E28F1959ACA0B2C1364D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Cardman-MGSwipeTableCell-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0F316413EE098EBFE89F6FB9</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Cardman-UIActionSheet+Blocks.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1128269CE34300F0ADFDD171</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DAC1215462BD865CDEE4EDB3</string>
+				<string>14412BB19EBAC3E880A02E70</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>14322BA7E16C3F233D19F408</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Cardman-UIActionSheet+Blocks.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14412BB19EBAC3E880A02E70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>189C0C806B7CAC1F9AE870C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>14A907FD6420C12BCA97B910</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MGSwipeTableCell.h</string>
+			<key>path</key>
+			<string>MGSwipeTableCell/MGSwipeTableCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>183C28C3574992DFE03C52DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIAlertView+Blocks.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>189C0C806B7CAC1F9AE870C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIActionSheet+Blocks.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A0295C7D276DCEC2C9CD678</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B525D3EC5E5097D19559E054</string>
+				<string>2C9F891CE3917AB08FE32681</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1A684501158BD21809615FB7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9AE585BC55EAA2C2EF7AC0E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1B19C5CB62BF4D4DC3A58F9B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E05A09127C434B7C663AAF6F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D4D2B61FF72B1FD46D8B8D6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIAlertView+Blocks.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20B20B00F626B5E2B9ABDDDE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6DCCDDD4C18F4663739060A5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5336A175E84C33ECBC81806F</string>
+				<string>EF91ECDC57333976A1B5F3AF</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>A200F276A41A92B9CBB61BB2</string>
+				<string>D01E749CA53E962CA9111ACA</string>
+				<string>FFA44D870396706A2C7D1A4A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Cardman</string>
+			<key>productName</key>
+			<string>Pods-Cardman</string>
+			<key>productReference</key>
+			<string>C1EBC8F8E152220558C1FDDD</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>22AD46E43CF539FEA39ADDFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B66C59933B7CF42062479EC0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26C16B1EF945134AF6655793</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Cardman.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2A38AD150E0D8E32EED2E89B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E05A09127C434B7C663AAF6F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2C9F891CE3917AB08FE32681</key>
+		<dict>
+			<key>fileRef</key>
+			<string>14A907FD6420C12BCA97B910</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>302670B79F2BDA3A69092915</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Cardman-MGSwipeTableCell.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>305B9AC821C9093CD27DA2C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>183C28C3574992DFE03C52DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3259154BF1E2C640EEB7F5CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E05A09127C434B7C663AAF6F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>343902D6680ED3E3BD7D8518</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DC9B7ED1978D84567CA82943</string>
+				<string>0888E28F1959ACA0B2C1364D</string>
+				<string>3B33AF53DE9A717FC7E15BAC</string>
+				<string>ACCB92D3A3CD6417C6201506</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Cardman-MGSwipeTableCell</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34C4C8630ACC2F8D6348CF34</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>6DCA3EF3CB524C539D3F0D0B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FCEAE68A2F558A2E7D00A30D</string>
+			<key>remoteInfo</key>
+			<string>Pods-Cardman-MGSwipeTableCell</string>
+		</dict>
+		<key>373CDE9E89017A689B869988</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MGSwipeButton.h</string>
+			<key>path</key>
+			<string>MGSwipeTableCell/MGSwipeButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>386BE8D786FA49D674941D58</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Cardman-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>392048C125104B2B335D9334</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C7C8560C02FD66E3E27542A7</string>
+			<string>0888E28F1959ACA0B2C1364D</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -41,6 +404,8 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Cardman-MGSwipeTableCell/Pods-Cardman-MGSwipeTableCell-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -70,43 +435,138 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>0A0045F298DC435F93D01EDF</key>
+		<key>3B33AF53DE9A717FC7E15BAC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Cardman-MGSwipeTableCell-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C541BAB36C7F8824588F185</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5C085E950298D8FDB4527A39</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Cardman-UIActionSheet+Blocks/Pods-Cardman-UIActionSheet+Blocks-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>40EB87EBA1F33F1393381AE9</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>59711500E73A8FC6D2CA468D</string>
+				<string>077FCDBFE3FF784479713E1E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>42AD716CA6522BA7A1F2920A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Cardman.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>496502E6BAEA0D04C074A02B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F201C61FC14814BD1BFC5244</string>
+			<key>buildPhases</key>
+			<array>
+				<string>91198EE99F5C3F39CB57808F</string>
+				<string>40EB87EBA1F33F1393381AE9</string>
+				<string>A66061CFAAAFA31A4730DFEA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Cardman-UIAlertView+Blocks</string>
+			<key>productName</key>
+			<string>Pods-Cardman-UIAlertView+Blocks</string>
+			<key>productReference</key>
+			<string>D6EE46ACA96B30ACD70607A1</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>5336A175E84C33ECBC81806F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1A684501158BD21809615FB7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0CA3944BF677BE08CDE5FF13</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D5994DCEB1E77C801CA3FAC2</string>
-				<string>F8F0C9D2361AE8E7C2560303</string>
-				<string>74955D6830A81A5EA35CC1AF</string>
-				<string>15B7CB96BF6EC1B01902AAAC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Cardman-MGSwipeTableCell</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D2AD4C2FE9D96E36B88F8EC</key>
+		<key>543AA49A0CA6653CAF85F0D3</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>8BC2FAB1BB48CF046DBF94C0</string>
-				<string>1BADAF0C36D4251ED8AE1E2E</string>
+				<string>E332FC554FCE4637D9D7B8F5</string>
+				<string>7D74B7A13CD95F3053F21C48</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -115,69 +575,51 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>0DCB5A458C6BD92C97D82A7A</key>
+		<key>583493EC8D2D91102E80B8B3</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BD9F6F410F6CBDA1CF597C64</string>
-				<string>9EF74D2A5ED7BCAD747240BA</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Cardman-UIAlertView+Blocks.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13ABEBC0EBCE9A9CE1189EA4</key>
+		<key>5B9C455388712A700FC6C255</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F81F8D0C7543C9F70FE3D4CA</string>
-				<string>9E2D526560E04D764FACC687</string>
-				<string>629C8633D9FA22D0814B259E</string>
-				<string>93CC7F4D9159323C4C02C22B</string>
-				<string>0CA3944BF677BE08CDE5FF13</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MGSwipeTableCell</string>
+			<string>MGSwipeTableCell.m</string>
 			<key>path</key>
-			<string>MGSwipeTableCell</string>
+			<string>MGSwipeTableCell/MGSwipeTableCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>15B7CB96BF6EC1B01902AAAC</key>
+		<key>5C085E950298D8FDB4527A39</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Cardman-MGSwipeTableCell-prefix.pch</string>
+			<string>Pods-Cardman-UIActionSheet+Blocks-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>19A47EFC8B7DCA9B6853D995</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Cardman-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BADAF0C36D4251ED8AE1E2E</key>
+		<key>5F1A4594C4D44D834307CB3B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F8F0C9D2361AE8E7C2560303</string>
+			<string>5C085E950298D8FDB4527A39</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -189,7 +631,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Cardman-MGSwipeTableCell/Pods-Cardman-MGSwipeTableCell-prefix.pch</string>
+				<string>Target Support Files/Pods-Cardman-UIActionSheet+Blocks/Pods-Cardman-UIActionSheet+Blocks-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -224,149 +666,89 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>1E4C0135751E22CABFC09871</key>
+		<key>60B4D4C39259F5060DE1877E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C7863E5FDB3B0256D2B1AADB</string>
+				<string>0188C0A801C43DEC8C0DB49E</string>
+				<string>189C0C806B7CAC1F9AE870C1</string>
+				<string>C4A97DB558E2DA73738E1303</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20CF2DA7F965C345CC273BA1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>696DB86E48792C6029B7A23E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2F6524849AC80B01D94ACA89</string>
-			<key>remoteInfo</key>
-			<string>Pods-Cardman-MGSwipeTableCell</string>
-		</dict>
-		<key>2F6524849AC80B01D94ACA89</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0D2AD4C2FE9D96E36B88F8EC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DFE6933B785AC138BFAE4D2C</string>
-				<string>3DE89721800ED9CD76FC2249</string>
-				<string>0DCB5A458C6BD92C97D82A7A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Cardman-MGSwipeTableCell</string>
-			<key>productName</key>
-			<string>Pods-Cardman-MGSwipeTableCell</string>
-			<key>productReference</key>
-			<string>B65CDA2BC9526F616D4FBAF2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>32DA89D37291FED00765F0F8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EAE25A25EF60F0A23BF4F0CC</string>
-				<string>B65CDA2BC9526F616D4FBAF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3452BDE2925FD59FDAA4D035</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>UIActionSheet+Blocks</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>UIActionSheet+Blocks</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3DE89721800ED9CD76FC2249</key>
+		<key>646410F29423BE4EC3A17443</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>702BA78B51F9D82138C1333C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Cardman-UIAlertView+Blocks/Pods-Cardman-UIAlertView+Blocks-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>67786E57F5F6121162224449</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>74BDF7B62AFA0448EC4D3FDF</string>
+				<string>AED6B8172525151922A2FD9B</string>
+				<string>889F3641395C989511499AEB</string>
+				<string>B12C8F4C97601145874C10BF</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>58C7B803F4769AB00E549280</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93CC7F4D9159323C4C02C22B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>59711500E73A8FC6D2CA468D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD69768E9F564EE4063BFAC2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>60B7CB084F6678AEFB3B73FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>629C8633D9FA22D0814B259E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MGSwipeTableCell.h</string>
-			<key>path</key>
-			<string>MGSwipeTableCell/MGSwipeTableCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>696DB86E48792C6029B7A23E</key>
+		<key>6DCA3EF3CB524C539D3F0D0B</key>
 		<dict>
 			<key>attributes</key>
 			<dict>
@@ -374,7 +756,7 @@
 				<string>0510</string>
 			</dict>
 			<key>buildConfigurationList</key>
-			<string>94675D1B2C7B5BBAB2C10356</string>
+			<string>543AA49A0CA6653CAF85F0D3</string>
 			<key>compatibilityVersion</key>
 			<string>Xcode 3.2</string>
 			<key>developmentRegion</key>
@@ -388,9 +770,9 @@
 				<string>en</string>
 			</array>
 			<key>mainGroup</key>
-			<string>BCAB2C0EB769D542234A4E33</string>
+			<string>0500267EF5FAD1DD0B13EC61</string>
 			<key>productRefGroup</key>
-			<string>32DA89D37291FED00765F0F8</string>
+			<string>C2E569B86EC91C78B3751F39</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -399,42 +781,65 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>C7A9CFB024B9A51F07B4F539</string>
-				<string>2F6524849AC80B01D94ACA89</string>
+				<string>20B20B00F626B5E2B9ABDDDE</string>
+				<string>FCEAE68A2F558A2E7D00A30D</string>
+				<string>7A8D046BD43C1A63800BBBF1</string>
+				<string>496502E6BAEA0D04C074A02B</string>
 			</array>
 		</dict>
-		<key>70AB905C872AF2BA8D6B5702</key>
+		<key>6DCCDDD4C18F4663739060A5</key>
 		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9A8014427CD3D6A3C11EBD67</string>
+				<string>D50AD3D94F1C75E74BA8A8F5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Cardman-MGSwipeTableCell</string>
-			<key>target</key>
-			<string>2F6524849AC80B01D94ACA89</string>
-			<key>targetProxy</key>
-			<string>20CF2DA7F965C345CC273BA1</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>74955D6830A81A5EA35CC1AF</key>
+		<key>702BA78B51F9D82138C1333C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Cardman-MGSwipeTableCell-dummy.m</string>
+			<string>Pods-Cardman-UIAlertView+Blocks-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>74BDF7B62AFA0448EC4D3FDF</key>
+		<key>7A8D046BD43C1A63800BBBF1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3452BDE2925FD59FDAA4D035</string>
+			<key>buildConfigurationList</key>
+			<string>CA8E509F6EA5A66A3B945103</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1128269CE34300F0ADFDD171</string>
+				<string>FF8B60501B8368E96EA36EBD</string>
+				<string>EF9D850157482CEA7AAFE536</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Cardman-UIActionSheet+Blocks</string>
+			<key>productName</key>
+			<string>Pods-Cardman-UIActionSheet+Blocks</string>
+			<key>productReference</key>
+			<string>0F316413EE098EBFE89F6FB9</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>78D682AB88523D0FA33C9EB4</key>
+		<key>7D74B7A13CD95F3053F21C48</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -496,45 +901,64 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>7B3A289EC0DD88DBF0188A11</key>
+		<key>889F3641395C989511499AEB</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>03D6100A4EB9762219689B4D</string>
-				<string>C2032980D2A6125941B42D67</string>
-				<string>FD69768E9F564EE4063BFAC2</string>
-				<string>C581E739FD83721DF8FB12BC</string>
-				<string>19A47EFC8B7DCA9B6853D995</string>
-				<string>C7C8560C02FD66E3E27542A7</string>
-				<string>BF63EDB69C8C29CE5897CBD5</string>
-			</array>
+			<key>fileRef</key>
+			<string>5B9C455388712A700FC6C255</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>8B90805108805B865FAF0C79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Pods-Cardman</string>
+			<string>MGSwipeButton.m</string>
 			<key>path</key>
-			<string>Target Support Files/Pods-Cardman</string>
+			<string>MGSwipeTableCell/MGSwipeButton.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>837B7948E1B3D251632DB486</key>
+		<key>91198EE99F5C3F39CB57808F</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>05095F1321E023555EBC6CA3</string>
-				<string>C48C837B73C7A0F98970AE80</string>
+				<string>22AD46E43CF539FEA39ADDFF</string>
+				<string>BA1E7BD1E650D663D158937E</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>8BC2FAB1BB48CF046DBF94C0</key>
+		<key>96E72A81EBDF0D285AD31377</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Cardman-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A8014427CD3D6A3C11EBD67</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F8F0C9D2361AE8E7C2560303</string>
+			<string>42AD716CA6522BA7A1F2920A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -549,8 +973,6 @@
 				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Cardman-MGSwipeTableCell/Pods-Cardman-MGSwipeTableCell-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -580,7 +1002,520 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>8F1A477E99CC5A2FA457C481</key>
+		<key>9AE585BC55EAA2C2EF7AC0E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Cardman-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4AEA7A3EA6CE002E6EA72B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>6DCA3EF3CB524C539D3F0D0B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7A8D046BD43C1A63800BBBF1</string>
+			<key>remoteInfo</key>
+			<string>Pods-Cardman-UIActionSheet+Blocks</string>
+		</dict>
+		<key>A200F276A41A92B9CBB61BB2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Cardman-MGSwipeTableCell</string>
+			<key>target</key>
+			<string>FCEAE68A2F558A2E7D00A30D</string>
+			<key>targetProxy</key>
+			<string>34C4C8630ACC2F8D6348CF34</string>
+		</dict>
+		<key>A66061CFAAAFA31A4730DFEA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>305B9AC821C9093CD27DA2C4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>ACCB92D3A3CD6417C6201506</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Cardman-MGSwipeTableCell-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD49D72A7447670E7E9FA3DC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>392048C125104B2B335D9334</string>
+				<string>C49C460E8C5FAE57AF2114EF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>AED6B8172525151922A2FD9B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8B90805108805B865FAF0C79</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>B12C8F4C97601145874C10BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3B33AF53DE9A717FC7E15BAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B227889B3A0EB5B28B13A79E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Cardman-UIActionSheet+Blocks-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B525D3EC5E5097D19559E054</key>
+		<dict>
+			<key>fileRef</key>
+			<string>373CDE9E89017A689B869988</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B66C59933B7CF42062479EC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Cardman-UIAlertView+Blocks-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA1E7BD1E650D663D158937E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D4D2B61FF72B1FD46D8B8D6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>BDA05B73582B216F75BB52A4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>183C28C3574992DFE03C52DB</string>
+				<string>1D4D2B61FF72B1FD46D8B8D6</string>
+				<string>C9721CE170F50F890DFEA275</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UIAlertView+Blocks</string>
+			<key>path</key>
+			<string>UIAlertView+Blocks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C0B64E59E59579684B939343</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>02F529074A6F8CC19ACFDC67</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1EBC8F8E152220558C1FDDD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Cardman.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C21FD4296182BE16CA0A2BE2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Cardman-UIAlertView+Blocks-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C2E569B86EC91C78B3751F39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C1EBC8F8E152220558C1FDDD</string>
+				<string>302670B79F2BDA3A69092915</string>
+				<string>0F316413EE098EBFE89F6FB9</string>
+				<string>D6EE46ACA96B30ACD70607A1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C49C460E8C5FAE57AF2114EF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0888E28F1959ACA0B2C1364D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Cardman-MGSwipeTableCell/Pods-Cardman-MGSwipeTableCell-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C4A97DB558E2DA73738E1303</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>14322BA7E16C3F233D19F408</string>
+				<string>5C085E950298D8FDB4527A39</string>
+				<string>FCAFD4E99C7DEE06414D5CE9</string>
+				<string>B227889B3A0EB5B28B13A79E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Cardman-UIActionSheet+Blocks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7370144B34305A6297B2C0B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0188C0A801C43DEC8C0DB49E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C9721CE170F50F890DFEA275</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>583493EC8D2D91102E80B8B3</string>
+				<string>702BA78B51F9D82138C1333C</string>
+				<string>B66C59933B7CF42062479EC0</string>
+				<string>C21FD4296182BE16CA0A2BE2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-Cardman-UIAlertView+Blocks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA8E509F6EA5A66A3B945103</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3C541BAB36C7F8824588F185</string>
+				<string>5F1A4594C4D44D834307CB3B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D01E749CA53E962CA9111ACA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Cardman-UIActionSheet+Blocks</string>
+			<key>target</key>
+			<string>7A8D046BD43C1A63800BBBF1</string>
+			<key>targetProxy</key>
+			<string>9C4AEA7A3EA6CE002E6EA72B</string>
+		</dict>
+		<key>D2159956BDD568F926DFF435</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>6DCA3EF3CB524C539D3F0D0B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>496502E6BAEA0D04C074A02B</string>
+			<key>remoteInfo</key>
+			<string>Pods-Cardman-UIAlertView+Blocks</string>
+		</dict>
+		<key>D50AD3D94F1C75E74BA8A8F5</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>26C16B1EF945134AF6655793</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D6904182718661E3D5D5B3D9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>702BA78B51F9D82138C1333C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Cardman-UIAlertView+Blocks/Pods-Cardman-UIAlertView+Blocks-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D6EE46ACA96B30ACD70607A1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Cardman-UIAlertView+Blocks.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D8491CDD32A01AA3FE02D7E5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1B19C5CB62BF4D4DC3A58F9B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DAC1215462BD865CDEE4EDB3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FCAFD4E99C7DEE06414D5CE9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DC9B7ED1978D84567CA82943</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Cardman-MGSwipeTableCell.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E05A09127C434B7C663AAF6F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>E0778A48837BAEF2FA08E7A1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2A38AD150E0D8E32EED2E89B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E332FC554FCE4637D9D7B8F5</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -647,207 +1582,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>93CC7F4D9159323C4C02C22B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MGSwipeTableCell.m</string>
-			<key>path</key>
-			<string>MGSwipeTableCell/MGSwipeTableCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94675D1B2C7B5BBAB2C10356</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8F1A477E99CC5A2FA457C481</string>
-				<string>78D682AB88523D0FA33C9EB4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>947141BCB4FCC4F0837B8B14</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3452BDE2925FD59FDAA4D035</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97F264848952E76CCFEF559D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>74955D6830A81A5EA35CC1AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>996B65D2A3399CC6B24EE4EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7B3A289EC0DD88DBF0188A11</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E2D526560E04D764FACC687</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MGSwipeButton.m</string>
-			<key>path</key>
-			<string>MGSwipeTableCell/MGSwipeButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9EF74D2A5ED7BCAD747240BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>629C8633D9FA22D0814B259E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B65CDA2BC9526F616D4FBAF2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Cardman-MGSwipeTableCell.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B858E4D82D704D969EE89F99</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>947141BCB4FCC4F0837B8B14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BCAB2C0EB769D542234A4E33</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>60B7CB084F6678AEFB3B73FA</string>
-				<string>1E4C0135751E22CABFC09871</string>
-				<string>D4C0D95CC631ABCC9FC7CF9A</string>
-				<string>32DA89D37291FED00765F0F8</string>
-				<string>996B65D2A3399CC6B24EE4EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD9F6F410F6CBDA1CF597C64</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F81F8D0C7543C9F70FE3D4CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF63EDB69C8C29CE5897CBD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Cardman.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2032980D2A6125941B42D67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Cardman-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C48C837B73C7A0F98970AE80</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BF63EDB69C8C29CE5897CBD5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C581E739FD83721DF8FB12BC</key>
+		<key>E3C8AB310D76FEAB528DF80A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -860,63 +1595,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C7863E5FDB3B0256D2B1AADB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3452BDE2925FD59FDAA4D035</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7A9CFB024B9A51F07B4F539</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>837B7948E1B3D251632DB486</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0A0045F298DC435F93D01EDF</string>
-				<string>B858E4D82D704D969EE89F99</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>70AB905C872AF2BA8D6B5702</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Cardman</string>
-			<key>productName</key>
-			<string>Pods-Cardman</string>
-			<key>productReference</key>
-			<string>EAE25A25EF60F0A23BF4F0CC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C7C8560C02FD66E3E27542A7</key>
+		<key>EEA4D2EB7F9DD26AB72C0747</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
 			<key>path</key>
-			<string>Pods-Cardman.debug.xcconfig</string>
+			<string>../Podfile</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>D4C0D95CC631ABCC9FC7CF9A</key>
+		<key>EF17458DDF6BFF65FB9EDE45</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>13ABEBC0EBCE9A9CE1189EA4</string>
+				<string>01A405C43B00F3090FB31CA1</string>
+				<string>60B4D4C39259F5060DE1877E</string>
+				<string>BDA05B73582B216F75BB52A4</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -925,88 +1627,67 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D5994DCEB1E77C801CA3FAC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Cardman-MGSwipeTableCell.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFE6933B785AC138BFAE4D2C</key>
+		<key>EF91ECDC57333976A1B5F3AF</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>E69E9CA5782E6308C61DC0D6</string>
-				<string>58C7B803F4769AB00E549280</string>
-				<string>97F264848952E76CCFEF559D</string>
+				<string>3259154BF1E2C640EEB7F5CE</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>E69E9CA5782E6308C61DC0D6</key>
+		<key>EF9D850157482CEA7AAFE536</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C7370144B34305A6297B2C0B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F201C61FC14814BD1BFC5244</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D6904182718661E3D5D5B3D9</string>
+				<string>646410F29423BE4EC3A17443</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F900DF149AC05A850C9508E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-Cardman-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC374C3086CDFDA1F155011E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9E2D526560E04D764FACC687</string>
+			<string>E05A09127C434B7C663AAF6F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
 		</dict>
-		<key>EAE25A25EF60F0A23BF4F0CC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Cardman.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F81F8D0C7543C9F70FE3D4CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MGSwipeButton.h</string>
-			<key>path</key>
-			<string>MGSwipeTableCell/MGSwipeButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8F0C9D2361AE8E7C2560303</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Cardman-MGSwipeTableCell-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD69768E9F564EE4063BFAC2</key>
+		<key>FCAFD4E99C7DEE06414D5CE9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1015,12 +1696,61 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-Cardman-dummy.m</string>
+			<string>Pods-Cardman-UIActionSheet+Blocks-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>FCEAE68A2F558A2E7D00A30D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>AD49D72A7447670E7E9FA3DC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>67786E57F5F6121162224449</string>
+				<string>E0778A48837BAEF2FA08E7A1</string>
+				<string>1A0295C7D276DCEC2C9CD678</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Cardman-MGSwipeTableCell</string>
+			<key>productName</key>
+			<string>Pods-Cardman-MGSwipeTableCell</string>
+			<key>productReference</key>
+			<string>302670B79F2BDA3A69092915</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>FF8B60501B8368E96EA36EBD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FC374C3086CDFDA1F155011E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FFA44D870396706A2C7D1A4A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Cardman-UIAlertView+Blocks</string>
+			<key>target</key>
+			<string>496502E6BAEA0D04C074A02B</string>
+			<key>targetProxy</key>
+			<string>D2159956BDD568F926DFF435</string>
+		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>696DB86E48792C6029B7A23E</string>
+	<string>6DCA3EF3CB524C539D3F0D0B</string>
 </dict>
 </plist>

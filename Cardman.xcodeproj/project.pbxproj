@@ -28,12 +28,28 @@
 		96572E7C1C579FD70096F1B1 /* CLName.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E7B1C579FD70096F1B1 /* CLName.m */; };
 		96572E7F1C57A6E90096F1B1 /* CLEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E7E1C57A6E90096F1B1 /* CLEmail.m */; };
 		96572E821C57C1CE0096F1B1 /* CLJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 96572E811C57C1CE0096F1B1 /* CLJob.m */; };
-		9692BB321C5BA89200417C33 /* SMSIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB2E1C5BA89200417C33 /* SMSIcon@2x.png */; };
-		9692BB331C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB2F1C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png */; };
-		9692BB341C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB301C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png */; };
-		9692BB351C5BA89200417C33 /* DialIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692BB311C5BA89200417C33 /* DialIcon@2x.png */; };
 		9692BB381C5BA8F700417C33 /* CLContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692BB371C5BA8F700417C33 /* CLContactsTableViewCell.m */; };
 		9692BB531C5BBC1300417C33 /* UIView+CLFrameShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692BB521C5BBC1300417C33 /* UIView+CLFrameShortcut.m */; };
+		969347311C5D03C2009FD414 /* CLPersonAvatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347301C5D03C2009FD414 /* CLPersonAvatar@2x.png */; };
+		969347511C5D1777009FD414 /* CLNavAddContactIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347461C5D1777009FD414 /* CLNavAddContactIcon@2x.png */; };
+		969347521C5D1777009FD414 /* CLNavAddIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347471C5D1777009FD414 /* CLNavAddIcon@2x.png */; };
+		969347531C5D1777009FD414 /* CLNavBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347481C5D1777009FD414 /* CLNavBackIcon@2x.png */; };
+		969347541C5D1777009FD414 /* CLNavCloseIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347491C5D1777009FD414 /* CLNavCloseIcon@2x.png */; };
+		969347551C5D1777009FD414 /* CLNavCloudIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693474A1C5D1777009FD414 /* CLNavCloudIcon@2x.png */; };
+		969347561C5D1777009FD414 /* CLNavContactIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693474B1C5D1777009FD414 /* CLNavContactIcon@2x.png */; };
+		969347571C5D1777009FD414 /* CLNavFireIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693474C1C5D1777009FD414 /* CLNavFireIcon@2x.png */; };
+		969347581C5D1777009FD414 /* CLNavForwardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693474D1C5D1777009FD414 /* CLNavForwardIcon@2x.png */; };
+		969347591C5D1777009FD414 /* CLNavPenIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693474E1C5D1777009FD414 /* CLNavPenIcon@2x.png */; };
+		9693475A1C5D1777009FD414 /* CLNavSettingIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693474F1C5D1777009FD414 /* CLNavSettingIcon@2x.png */; };
+		9693475B1C5D1777009FD414 /* CLNavTickIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347501C5D1777009FD414 /* CLNavTickIcon@2x.png */; };
+		9693475D1C5D1A30009FD414 /* CLNavCircleTickIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693475C1C5D1A30009FD414 /* CLNavCircleTickIcon@2x.png */; };
+		9693475F1C5D1D24009FD414 /* CLNavPencilIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693475E1C5D1D24009FD414 /* CLNavPencilIcon@2x.png */; };
+		969347631C5D22FE009FD414 /* CLCellDialIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347611C5D22FE009FD414 /* CLCellDialIcon@2x.png */; };
+		969347641C5D22FE009FD414 /* CLCellSMSIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347621C5D22FE009FD414 /* CLCellSMSIcon@2x.png */; };
+		969347671C5D24EF009FD414 /* CLCellGoldenStarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347651C5D24EF009FD414 /* CLCellGoldenStarIcon@2x.png */; };
+		969347681C5D24EF009FD414 /* CLCellWhiteStarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347661C5D24EF009FD414 /* CLCellWhiteStarIcon@2x.png */; };
+		9693476B1C5D2863009FD414 /* CLCellGrayTickIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969347691C5D2863009FD414 /* CLCellGrayTickIcon@2x.png */; };
+		9693476C1C5D2863009FD414 /* CLCellGreenTickIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693476A1C5D2863009FD414 /* CLCellGreenTickIcon@2x.png */; };
 		BC17E4AA4C5E32D08936FAB4 /* libPods-Cardman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6030446E39B4AA22C57EEEA /* libPods-Cardman.a */; };
 /* End PBXBuildFile section */
 
@@ -81,15 +97,31 @@
 		96572E7E1C57A6E90096F1B1 /* CLEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLEmail.m; path = CardmanLib/CLEmail.m; sourceTree = "<group>"; };
 		96572E801C57C1CE0096F1B1 /* CLJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLJob.h; path = CardmanLib/CLJob.h; sourceTree = "<group>"; };
 		96572E811C57C1CE0096F1B1 /* CLJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLJob.m; path = CardmanLib/CLJob.m; sourceTree = "<group>"; };
-		9692BB2E1C5BA89200417C33 /* SMSIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMSIcon@2x.png"; sourceTree = "<group>"; };
-		9692BB2F1C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLDefaultAvatar_Female@2x.png"; sourceTree = "<group>"; };
-		9692BB301C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLDefaultAvatar_Male@2x.png"; sourceTree = "<group>"; };
-		9692BB311C5BA89200417C33 /* DialIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DialIcon@2x.png"; sourceTree = "<group>"; };
 		9692BB361C5BA8F700417C33 /* CLContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLContactsTableViewCell.h; sourceTree = "<group>"; };
 		9692BB371C5BA8F700417C33 /* CLContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLContactsTableViewCell.m; sourceTree = "<group>"; };
 		9692BB511C5BBC1300417C33 /* UIView+CLFrameShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CLFrameShortcut.h"; path = "Category/UIView+CLFrameShortcut.h"; sourceTree = "<group>"; };
 		9692BB521C5BBC1300417C33 /* UIView+CLFrameShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CLFrameShortcut.m"; path = "Category/UIView+CLFrameShortcut.m"; sourceTree = "<group>"; };
 		9692BB551C5BBE5300417C33 /* CLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLObject.h; path = CardmanLib/CLObject.h; sourceTree = "<group>"; };
+		969347301C5D03C2009FD414 /* CLPersonAvatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLPersonAvatar@2x.png"; sourceTree = "<group>"; };
+		969347461C5D1777009FD414 /* CLNavAddContactIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavAddContactIcon@2x.png"; sourceTree = "<group>"; };
+		969347471C5D1777009FD414 /* CLNavAddIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavAddIcon@2x.png"; sourceTree = "<group>"; };
+		969347481C5D1777009FD414 /* CLNavBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavBackIcon@2x.png"; sourceTree = "<group>"; };
+		969347491C5D1777009FD414 /* CLNavCloseIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavCloseIcon@2x.png"; sourceTree = "<group>"; };
+		9693474A1C5D1777009FD414 /* CLNavCloudIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavCloudIcon@2x.png"; sourceTree = "<group>"; };
+		9693474B1C5D1777009FD414 /* CLNavContactIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavContactIcon@2x.png"; sourceTree = "<group>"; };
+		9693474C1C5D1777009FD414 /* CLNavFireIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavFireIcon@2x.png"; sourceTree = "<group>"; };
+		9693474D1C5D1777009FD414 /* CLNavForwardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavForwardIcon@2x.png"; sourceTree = "<group>"; };
+		9693474E1C5D1777009FD414 /* CLNavPenIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavPenIcon@2x.png"; sourceTree = "<group>"; };
+		9693474F1C5D1777009FD414 /* CLNavSettingIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavSettingIcon@2x.png"; sourceTree = "<group>"; };
+		969347501C5D1777009FD414 /* CLNavTickIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavTickIcon@2x.png"; sourceTree = "<group>"; };
+		9693475C1C5D1A30009FD414 /* CLNavCircleTickIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavCircleTickIcon@2x.png"; sourceTree = "<group>"; };
+		9693475E1C5D1D24009FD414 /* CLNavPencilIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLNavPencilIcon@2x.png"; sourceTree = "<group>"; };
+		969347611C5D22FE009FD414 /* CLCellDialIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLCellDialIcon@2x.png"; sourceTree = "<group>"; };
+		969347621C5D22FE009FD414 /* CLCellSMSIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLCellSMSIcon@2x.png"; sourceTree = "<group>"; };
+		969347651C5D24EF009FD414 /* CLCellGoldenStarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLCellGoldenStarIcon@2x.png"; sourceTree = "<group>"; };
+		969347661C5D24EF009FD414 /* CLCellWhiteStarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLCellWhiteStarIcon@2x.png"; sourceTree = "<group>"; };
+		969347691C5D2863009FD414 /* CLCellGrayTickIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLCellGrayTickIcon@2x.png"; sourceTree = "<group>"; };
+		9693476A1C5D2863009FD414 /* CLCellGreenTickIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLCellGreenTickIcon@2x.png"; sourceTree = "<group>"; };
 		C6030446E39B4AA22C57EEEA /* libPods-Cardman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cardman.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -211,10 +243,9 @@
 		9692BB2D1C5BA89200417C33 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				9692BB311C5BA89200417C33 /* DialIcon@2x.png */,
-				9692BB2E1C5BA89200417C33 /* SMSIcon@2x.png */,
-				9692BB2F1C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png */,
-				9692BB301C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png */,
+				969347601C5D22FE009FD414 /* CellIcons */,
+				969347451C5D1777009FD414 /* NavIcons */,
+				969347301C5D03C2009FD414 /* CLPersonAvatar@2x.png */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -226,6 +257,39 @@
 				9692BB521C5BBC1300417C33 /* UIView+CLFrameShortcut.m */,
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		969347451C5D1777009FD414 /* NavIcons */ = {
+			isa = PBXGroup;
+			children = (
+				969347461C5D1777009FD414 /* CLNavAddContactIcon@2x.png */,
+				969347471C5D1777009FD414 /* CLNavAddIcon@2x.png */,
+				969347481C5D1777009FD414 /* CLNavBackIcon@2x.png */,
+				969347491C5D1777009FD414 /* CLNavCloseIcon@2x.png */,
+				9693474A1C5D1777009FD414 /* CLNavCloudIcon@2x.png */,
+				9693474B1C5D1777009FD414 /* CLNavContactIcon@2x.png */,
+				9693474C1C5D1777009FD414 /* CLNavFireIcon@2x.png */,
+				9693474D1C5D1777009FD414 /* CLNavForwardIcon@2x.png */,
+				9693474E1C5D1777009FD414 /* CLNavPenIcon@2x.png */,
+				9693475E1C5D1D24009FD414 /* CLNavPencilIcon@2x.png */,
+				9693474F1C5D1777009FD414 /* CLNavSettingIcon@2x.png */,
+				969347501C5D1777009FD414 /* CLNavTickIcon@2x.png */,
+				9693475C1C5D1A30009FD414 /* CLNavCircleTickIcon@2x.png */,
+			);
+			path = NavIcons;
+			sourceTree = "<group>";
+		};
+		969347601C5D22FE009FD414 /* CellIcons */ = {
+			isa = PBXGroup;
+			children = (
+				969347611C5D22FE009FD414 /* CLCellDialIcon@2x.png */,
+				969347621C5D22FE009FD414 /* CLCellSMSIcon@2x.png */,
+				969347651C5D24EF009FD414 /* CLCellGoldenStarIcon@2x.png */,
+				969347661C5D24EF009FD414 /* CLCellWhiteStarIcon@2x.png */,
+				969347691C5D2863009FD414 /* CLCellGrayTickIcon@2x.png */,
+				9693476A1C5D2863009FD414 /* CLCellGreenTickIcon@2x.png */,
+			);
+			path = CellIcons;
 			sourceTree = "<group>";
 		};
 		CE3CCB63551AC4E0EEE391F9 /* Frameworks */ = {
@@ -295,13 +359,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9692BB351C5BA89200417C33 /* DialIcon@2x.png in Resources */,
+				969347311C5D03C2009FD414 /* CLPersonAvatar@2x.png in Resources */,
+				9693475D1C5D1A30009FD414 /* CLNavCircleTickIcon@2x.png in Resources */,
+				969347641C5D22FE009FD414 /* CLCellSMSIcon@2x.png in Resources */,
+				969347511C5D1777009FD414 /* CLNavAddContactIcon@2x.png in Resources */,
+				9693476C1C5D2863009FD414 /* CLCellGreenTickIcon@2x.png in Resources */,
+				969347681C5D24EF009FD414 /* CLCellWhiteStarIcon@2x.png in Resources */,
+				969347581C5D1777009FD414 /* CLNavForwardIcon@2x.png in Resources */,
 				96572E3B1C564CC30096F1B1 /* LaunchScreen.storyboard in Resources */,
+				969347531C5D1777009FD414 /* CLNavBackIcon@2x.png in Resources */,
 				96572E381C564CC30096F1B1 /* Assets.xcassets in Resources */,
-				9692BB331C5BA89200417C33 /* CLDefaultAvatar_Female@2x.png in Resources */,
+				969347571C5D1777009FD414 /* CLNavFireIcon@2x.png in Resources */,
+				969347591C5D1777009FD414 /* CLNavPenIcon@2x.png in Resources */,
+				969347541C5D1777009FD414 /* CLNavCloseIcon@2x.png in Resources */,
+				969347631C5D22FE009FD414 /* CLCellDialIcon@2x.png in Resources */,
+				969347521C5D1777009FD414 /* CLNavAddIcon@2x.png in Resources */,
 				96572E361C564CC30096F1B1 /* Main.storyboard in Resources */,
-				9692BB321C5BA89200417C33 /* SMSIcon@2x.png in Resources */,
-				9692BB341C5BA89200417C33 /* CLDefaultAvatar_Male@2x.png in Resources */,
+				9693475A1C5D1777009FD414 /* CLNavSettingIcon@2x.png in Resources */,
+				9693476B1C5D2863009FD414 /* CLCellGrayTickIcon@2x.png in Resources */,
+				969347551C5D1777009FD414 /* CLNavCloudIcon@2x.png in Resources */,
+				9693475F1C5D1D24009FD414 /* CLNavPencilIcon@2x.png in Resources */,
+				9693475B1C5D1777009FD414 /* CLNavTickIcon@2x.png in Resources */,
+				969347561C5D1777009FD414 /* CLNavContactIcon@2x.png in Resources */,
+				969347671C5D24EF009FD414 /* CLCellGoldenStarIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

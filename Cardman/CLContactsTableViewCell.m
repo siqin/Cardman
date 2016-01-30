@@ -20,6 +20,8 @@
 
 @property (nonatomic, strong) UIView *bottomLine;
 
+@property (nonatomic, strong) UIImageView *tickIcon;
+
 @end
 
 @implementation CLContactsTableViewCell
@@ -32,6 +34,10 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (void)prepareForReuse {
+    ;
 }
 
 #pragma mark - getter
@@ -74,19 +80,46 @@
     return _bottomLine;
 }
 
+- (UIImageView *)tickIcon {
+    if (!_tickIcon) {
+        _tickIcon = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+        [self.contentView addSubview:_tickIcon];
+    }
+    return  _tickIcon;
+}
+
 #pragma mark -
 
-- (void)configWithCLPerson:(CLPerson *)clPerson {
-    UIImage *avatar = [UIImage imageNamed:@"CLDefaultAvatar_Male"];
+- (void)configWithCLPerson:(CLPerson *)clPerson
+                 isEditing:(BOOL)isEditing
+           contactSelected:(BOOL)contactSelected {
+    
+    [self configAvatarWithCLPerson:clPerson];
+    
+    [self configNameInfoWithCLPerson:clPerson];
+    
+    if (isEditing) {
+        self.tickIcon.hidden = NO;
+        UIImage *tickImage = contactSelected ? [UIImage imageNamed:@"CLCellGreenTickIcon"] : [UIImage imageNamed:@"CLCellGrayTickIcon"];
+        self.tickIcon.width = tickImage.size.width;
+        self.tickIcon.height = tickImage.size.height;
+        self.tickIcon.image = tickImage;
+    } else {
+        _tickIcon.hidden = YES;
+    }
+}
+
+- (void)configAvatarWithCLPerson:(CLPerson *)clPerson {
+    UIImage *avatar = [UIImage imageNamed:@"CLPersonAvatar"];
     if (clPerson.avatar != nil) avatar = clPerson.avatar;
     self.avatarView.image = avatar;
     
     // 在没有遮罩之前先绘制成圆形头像
     self.avatarView.layer.masksToBounds = YES;
     self.avatarView.layer.cornerRadius = self.avatarView.bounds.size.width / 2;
-    self.avatarView.layer.borderWidth = 1.0f;
-    self.avatarView.layer.borderColor = [UIColor grayColor].CGColor;
-    
+}
+
+- (void)configNameInfoWithCLPerson:(CLPerson *)clPerson {
     self.nameLabel.text = clPerson.name.compositeName;
     [self.nameLabel sizeToFit];
     
@@ -100,6 +133,8 @@
     if (notes) {
         self.noteLabel.text = notes;
         [self.noteLabel sizeToFit];
+    } else {
+        _noteLabel.text = nil;
     }
 }
 
@@ -119,6 +154,11 @@
         self.bottomLine.left = _nameLabel.left;
         self.bottomLine.bottom = self.contentView.height;
         self.bottomLine.width = self.contentView.width - self.bottomLine.left - 20.0f;
+        
+        if (_tickIcon.hidden == NO) {
+            _tickIcon.center = _avatarView.center;
+            _tickIcon.right = self.bottomLine.right;
+        }
     }
 }
 

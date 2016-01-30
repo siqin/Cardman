@@ -64,7 +64,10 @@
     
     if (indexPath.row == 0) {
         CMContactListViewController *vc = [CMContactListViewController new];
-        [self.navigationController pushViewController:vc animated:YES];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        [self.navigationController presentViewController:nav animated:YES completion:^{
+            ;
+        }];
     }
 }
 

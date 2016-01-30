@@ -137,6 +137,13 @@
     return _alternateBirthday;
 }
 
+- (NSMutableDictionary *)extendedInfo {
+    if (!_extendedInfo) {
+        _extendedInfo = [NSMutableDictionary new];
+    }
+    return _extendedInfo;
+}
+
 #pragma mark - extract properties
 
 + (void)extractNameFromABRecordRef:(ABRecordRef)abRecordRef intoCLPerson:(CLPerson *)clPerson {

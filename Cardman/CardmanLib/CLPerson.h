@@ -53,6 +53,9 @@
 
 @property (nonatomic, strong) CLAlternateBirthday *alternateBirthday;
 
+/// @brief 只存在于内存中的临时信息
+@property (nonatomic, strong) NSMutableDictionary *extendedInfo;
+
 + (CLPerson *)personFromABRecordRef:(ABRecordRef)abRecordRef;
 
 @end

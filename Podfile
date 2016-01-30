@@ -3,4 +3,7 @@
 
 target 'Cardman' do
     pod 'MGSwipeTableCell'
+    
+    pod 'UIActionSheet+Blocks'
+    pod 'UIAlertView+Blocks'
 end

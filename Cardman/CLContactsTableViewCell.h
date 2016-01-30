@@ -13,6 +13,10 @@
 
 @interface CLContactsTableViewCell : MGSwipeTableCell
 
-- (void)configWithCLPerson:(CLPerson *)clPerson;
+@property (nonatomic, assign) BOOL contactSelected;
+
+- (void)configWithCLPerson:(CLPerson *)clPerson
+                 isEditing:(BOOL)isEditing
+           contactSelected:(BOOL)contactSelected;
 
 @end
